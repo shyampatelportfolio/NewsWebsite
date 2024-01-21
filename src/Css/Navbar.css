@@ -1,0 +1,174 @@
+.navbar-first-row{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    gap: 1vw;
+    padding-bottom: 2vh;
+    height: 7vh;
+    padding-top: 3vh;
+}
+.navbar-logo{
+    height: 7vh;
+    position: absolute;
+    top: 3vh;
+    left: 0vw;
+    object-fit: contain;
+    padding-bottom: 2vh;
+}
+.account-image{
+    width: 4vh;
+    height: 4vh;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px solid rgb(0, 0, 0);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('/Svg/Add.svg');
+    background-position: center;
+    opacity: 0.5;
+}
+.navbar-line-container{
+    position: absolute;
+    left: 5%;
+    bottom: -3vh;
+    width: 90%;
+    height: 3vh;
+}
+.navbar-line{
+    background-color: rgb(82, 82, 82);
+    height: 1px;
+    margin-bottom: 3px;
+}
+.navbar-container{
+    position: relative;
+    width: 100vw;
+}
+.navbar-left{
+    position: absolute;
+    left: 8vw;
+    top: 7vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbar-right{
+    position: absolute;
+    right: 8vw;
+    top: 4vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbar-right-signin{
+    height: 3.5vh;
+    display: flex;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+}
+.navbar-right-main-item{
+    cursor: pointer;
+}
+.navbar-right-dropdown-container{
+    display: none;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-top: 0.75vh;
+    color: rgb(255, 255, 255);
+}
+.navbar-right-dropdown-container.selected{
+    display: flex;
+}
+.navbar-right-dropdown-option{
+    border-bottom: 1px solid transparent;
+    padding-bottom: 0.5vh;
+    color: white;
+}
+.navbar-right-dropdown-option:hover{
+    border-color: white;
+}
+.navbar-item{
+    text-align: center;
+    width: 4vw;
+    height: 3vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-left: 1px solid rgb(0, 0, 0);
+    border-color: inherit;
+    font-size: 11px;
+    font-weight: 400;
+    cursor: pointer;
+    margin-right: 0.5vw;
+}
+.navbar-right > .navbar-item{
+    display: none;
+}
+.navbar-right.selected > .navbar-item{
+    display: flex;
+}
+.navbar-item:first-of-type{
+    border-left: 1px solid transparent;
+}
+.navbar-item:hover{
+    font-weight: 800;
+
+}
+
+.navbar-title{
+    font-size: 50px;
+    font-family: 'Dancing Script';
+    width: 30vw;
+    position: absolute;
+    top: 1vh;
+    text-align: center;
+    object-fit: contain;
+    padding-bottom: 2vh;
+}
+.navbar-date{
+    position: absolute;
+    left: 8vw;
+    top: 5vh;
+    font-weight: 400;
+}
+
+
+
+
+
+.navbar-links-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 5vh;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.5);
+    border-top: 2px solid rgba(0, 0, 0, 0.15);
+ 
+}
+.navbar-link{
+    font-size: 12px;
+    font-weight: 400;
+    width: 4.5vw;
+    height: 100%;
+    overflow: hidden;
+    margin-left: 1.25vw;
+    margin-right: 1.25vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbar-link:hover{
+    font-weight: 800;
+}
+.navbar-link a{
+    width: 4.5vw;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: inherit;
+}

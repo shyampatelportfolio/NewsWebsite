@@ -1,0 +1,181 @@
+
+
+
+
+.preview{
+    background-color: rgb(255, 255, 255);
+    width: 100vw;
+    padding-bottom: 50vh;
+}
+.actionbar-dragger{
+    padding: 0;
+    display: flex;
+    align-items: center;
+    padding: 1vh;
+    padding-left: 1vw;
+}
+.actionbar-dragger img{
+    object-fit: contain;
+}
+.actionbar{
+    position: fixed;
+    top: 40vh;
+    left: 10vw;
+    display:  flex;
+    gap: 1vw;
+    box-shadow: 0px 0px 5px rgb(188, 188, 188);
+    padding-right: 1vw;
+}
+.actionbar-action{
+    padding: 1vw;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+
+
+
+
+
+
+
+.compose{
+    margin-left: 25vw;
+    margin-right: 25vw;
+    margin-top: 5vh;
+    border: 1px solid red;
+    min-height: 60vh;
+    width: 50vw;
+    overflow: scroll;
+
+}
+.compose-details{
+    display: flex;
+    width: 100vw;
+    transition: all 1s;
+}
+.compose-details-section{
+    width: 50vw;
+}
+.compose-controls{
+    width: 100%;
+    padding: 2vh;
+    border: 1px solid blue;
+    display: flex;
+}
+.compose-controls-container{
+    display: flex;
+}
+.compose-controls-button{
+    width: 5vw;
+    height: 4vh;
+    border: 2px solid red;
+    margin-right: 2vw;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.compose-controls-add-image{
+    border: 2px solid rgb(81, 0, 128);
+
+}
+
+.compose-controls-add-title{
+}
+.compose-controls-add-text{
+    border: 2px solid green;
+}
+.compose-controls-preview-text{
+    border: 2px solid rgb(255, 220, 25);
+}
+.compose-controls-cancel-preview{
+    border: 2px solid rgb(25, 125, 255);
+}
+.compose-header{
+    padding-bottom: 2vh;
+    margin-bottom: 2vh;
+    border-bottom: 2px solid black;
+}
+.compose-textarea{
+    padding-bottom: 20vh;
+}
+.compose-textarea-title{
+    color: var(--font-color);
+    background-color: transparent;
+    resize: none; 
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0;
+    height: 35px;
+    border: none;
+    border: 1px solid yellow;
+    font-size: 25px;
+    margin-bottom: 1.5vh;
+    box-sizing: border-box;
+    font-weight: 500;
+    overflow: hidden;
+}
+.compose-textarea-text{
+    color: var(--font-color);
+    background-color: transparent;
+    resize: none; 
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0;
+    height: 17px;
+    border: none;
+    border: 1px solid yellow;
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 200;
+    overflow: hidden;
+
+}
+.compose-add-image{
+    color: var(--font-color);
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0;
+    height: 30vh;
+    border: 1px solid yellow;
+    overflow: scroll;
+    cursor: pointer;
+}
+.compose-add-image-input{
+    display: none;
+}
+.compose-add-image img{
+    object-fit: contain;
+}
+.compose-add-image-placeholder{
+    opacity: 0.5;    
+    width: 5vw;
+    height: 5vw;
+}
+
+
+
+
+.instructions-icon{
+    position: fixed;
+    bottom: 5vh;
+    right: 6vw;
+    
+}
+.instructions-icon::after{
+    position: absolute;
+    content: "When attempting to upload images, please note that actual images will not be processed. Instead, a random placeholder image will be provided for demonstration purposes.";
+    overflow: hidden;
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 11px;
+    font-weight: 300;
+    width: 12vw;
+    height: 15vh;
+    top: -13vh;
+    right: -5vw;
+    opacity: 0;
+    transition: opacity 0.25s;
+}
+.instructions-icon:hover::after{
+    opacity: 100%;
+}

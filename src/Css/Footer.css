@@ -1,0 +1,127 @@
+.footer{
+    margin-top: 5vh;
+    border-top: 2px solid black;
+    width: 85%;
+    margin-left: 7.5%;
+    padding-top: 2vh;
+}
+
+.footer-logo{
+    height: 5vh;
+    object-fit: contain;
+    padding-bottom: 2vh;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.05);
+    margin-bottom: 3vh;
+
+}
+.footer-wrapper{
+    display: flex;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.05);
+    padding-bottom: 2vh;
+
+}
+.footer-first{
+    width: 60%;
+    padding-right: 1vw;
+    margin-right: 1vw;
+    border-right: 2px solid rgba(0, 0, 0, 0.05);
+    box-sizing: border-box;
+}
+.footer-second{
+    width: 40%;
+    height: 100%;
+    box-sizing: border-box;
+    padding-left: 1vw;
+
+}
+.footer-row{
+    display: flex;
+}
+.footer-vertical-line{
+    border-right: 2px solid rgba(0, 0, 0, 0.05);
+    margin-right: 2vw;
+}
+.footer-horizontal-line{
+    border-bottom: 2px solid rgba(0, 0, 0, 0.05);
+    margin-bottom: 2vh;
+    margin-top: 2vh;
+}
+.footer-box{
+    width: 20vw;
+    position: relative;
+    padding-bottom: 1vh;
+}
+.footer-box-subtitle{
+    font-weight: 700;
+    font-size: 12px;
+    padding-bottom: 2vh;
+}
+.footer-box-tags{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    left: -1vw;
+}
+.footer-box-tag{
+    font-size: 11px;
+    font-weight: 300;
+    opacity: 0.8;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    padding-top: 1.5vh;
+    padding-bottom: 1.5vh;
+    cursor: pointer;
+}
+.footer-box-list{
+    width: 17.5vw;
+    position: relative;
+    padding-bottom: 1vh;
+
+}
+.footer-box-list-subtitle{
+    font-weight: 700;
+    font-size: 12px;
+    padding-bottom: 2vh;
+}
+.footer-box-list-tags{
+
+}
+.footer-box-list-tag{
+    cursor: pointer;
+    font-size: 11px;
+    font-weight: 300;
+    opacity: 0.8;
+
+    padding-top: 1.5vh;
+    padding-bottom: 1.5vh;
+
+}
+.footer-box-gallery{
+    width: 30vw;
+    position: relative;
+    padding-bottom: 1vh;
+}
+.footer-box-gallery-subtitle{
+    font-weight: 700;
+    font-size: 12px;
+    padding-bottom: 2vh;
+}
+.footer-box-gallery-images{
+    display: flex;
+    gap: 1vw;
+}
+.footer-box-gallery-image{
+    height: 20vh;
+    border: 2px solid rgb(0, 0, 0);
+    cursor: pointer;
+}
+.footer-title{
+    font-size: 50px;
+    font-family: 'Dancing Script';
+    width: 85vw;
+    text-align: center;
+    object-fit: contain;
+    padding-bottom: 3vh;
+    margin-bottom: 4vh;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+}
